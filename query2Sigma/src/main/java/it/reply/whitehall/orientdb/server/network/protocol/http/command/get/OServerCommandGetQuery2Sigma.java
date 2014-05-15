@@ -27,15 +27,15 @@ import com.tinkerpop.blueprints.impls.orient.OrientGraph;
 import com.tinkerpop.blueprints.impls.orient.OrientVertex;
 import com.tinkerpop.blueprints.impls.orient.OrientVertexType;
 
-public class OServerCommandGetJsonQuery extends
+public class OServerCommandGetQuery2Sigma extends
 		OServerCommandAuthenticatedDbAbstract {
-	private static final String[] NAMES = { "GET|jsonquery/*" };
+	private static final String[] NAMES = { "GET|query2sigma/*" };
 	
 	
-	public OServerCommandGetJsonQuery() {
+	public OServerCommandGetQuery2Sigma() {
 	  }
 
-	  public OServerCommandGetJsonQuery(final OServerCommandConfiguration iConfig) {
+	  public OServerCommandGetQuery2Sigma(final OServerCommandConfiguration iConfig) {
 	  }
 	
 	@Override
